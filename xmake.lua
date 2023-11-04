@@ -15,3 +15,8 @@ add_rules("mode.release", "mode.debug")
 target("test")
     set_kind("binary")
     add_files("test/*.cpp")
+
+
+target("protocol")
+    set_kind("binary")
+    add_files("protocol/*.c")

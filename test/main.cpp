@@ -16,7 +16,7 @@ int main(){
     //     write(2, "write file wrong!\n", strlen("write file wrong!\n"));
     // }
     // close(fd);
-
+    
     file f("test.txt");
     char bytes[] = {0x01,0x02,0x03,0x04,0x12,0x21};
     f.write_binary(bytes, 6);
